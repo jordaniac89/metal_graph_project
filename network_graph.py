@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 import read_data
 
-bands_d = read_data.read_bands()
+bands_df = read_data.read_bands()
 band_members_df = read_data.read_members()
 
 band_nodes = bands_df['musical_group'].tolist()
